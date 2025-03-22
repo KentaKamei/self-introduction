@@ -30,9 +30,21 @@
                 <li>Blender</li>
             </ul>
         </section>
-        <section>
+        <section id="library">
             <h2>Library</h2>
             <p>今までに読んだ本の一覧</p>
+
+            <div class="bookshelf">
+                <!-- 本1 -->
+                <div class="book" onclick="openBook(1)">
+                  <span class="spine">君たちはどう生きるか</span>
+                  <div class="content" id="bookContent1">
+                    <h3>君たちはどう生きるか</h3>
+                    <p>人としてどう生きるべきかを問いかける名作。中学生のコペル君の成長物語。</p>
+                    <button onclick="closeBook(1); event.stopPropagation();">閉じる</button>
+                  </div>
+                </div>
+              </div>
         </section>
         <section>
             <h2>museum</h2>
