@@ -1,54 +1,56 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>自己紹介</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>自己紹介</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>自己紹介サイト</h1>
-        <nav>
-            <ul>
-                <li><a href="#">information</a></li>
-                <li><a href="#">Library</a></li>
-                <li><a href="#">museum</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>information</h2>
-            <h4>氏名</h4>
-            <p>亀井　絢太</p>
-            <h4>趣味</h4>
-            <ul>
-                <li>ゲーム</li>
-                <li>読書</li>
-                <li>Blender</li>
-            </ul>
-        </section>
-        <section id="library">
-            <h2>Library</h2>
-            <p>今までに読んだ本の一覧</p>
+  <header>
+    <h1>自己紹介サイト</h1>
+    <nav>
+      <ul>
+        <li><a href="#information">information</a></li>
+        <li><a href="#library">Library</a></li>
+        <li><a href="#museum">museum</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="information">
+      <h2>information</h2>
+      <h4>氏名</h4>
+      <p>亀井 絢太</p>
+      <h4>趣味</h4>
+      <ul>
+        <li>ゲーム</li>
+        <li>読書</li>
+        <li>Blender</li>
+      </ul>
+    </section>
 
-            <div class="real-book" onclick="this.classList.toggle('open')">
-                <div class="cover">本のタイトル</div>
-                <div class="page">
-                  <h3>あらすじ</h3>
-                  <p>これは本のあらすじです。人はなぜ生きるのか——</p>
-                </div>
-              </div>              
-        </section>
-        <section>
-            <h2>museum</h2>
-            <p>Blenderを使用して作成した作品</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 TCU University Kamei Kenta</p>
-    </footer>
+    <section id="library">
+      <h2>Library</h2>
+      <p>今までに読んだ本の一覧</p>
+
+      <div class="real-book" onclick="this.classList.toggle('open')">
+        <div class="cover">本のタイトル</div>
+        <div class="page">
+          <h3>あらすじ</h3>
+          <p>これは本のあらすじです。人はなぜ生きるのか——</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="museum">
+      <h2>museum</h2>
+      <p>Blenderを使用して作成した作品</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 TCU University Kamei Kenta</p>
+  </footer>
 </body>
 </html>

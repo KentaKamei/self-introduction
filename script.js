@@ -1,8 +1,1 @@
-function openBook(id) {
-    document.getElementById(`bookContent${id}`).style.display = "block";
-  }
-  
-  function closeBook(id) {
-    document.getElementById(`bookContent${id}`).style.display = "none";
-  }
-
+// 今回はクリックでクラス切り替えだけなので、JSなしでも動きます
